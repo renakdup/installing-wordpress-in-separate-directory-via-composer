@@ -1,0 +1,13 @@
+.idea
+/vendor/
+
+# ignore WordPress files
+/wp
+
+/wp-content/*
+!/wp-content
+!/wp-content/index.php
+
+!/wp-content/mu-plugins/
+!/wp-content/plugins/
+!/wp-content/themes/

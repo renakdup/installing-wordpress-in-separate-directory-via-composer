@@ -1,0 +1,30 @@
+{
+    "name": "wp-yoda/composer-with-wordpress",
+    "description": "Installing WordPress via Composer in a separate directory",
+    "authors": [
+        {
+            "name": "Andrei Pisarevskii",
+            "email": "renakdup@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress/wordpress",
+                "version": "6.2.2",
+                "type": "wordpress-core",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/WordPress/WordPress/archive/refs/tags/6.2.2.zip"
+                }
+            }
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": "mkdir -p ./wp && cp -r ./vendor/wordpress/wordpress/* ./wp"
+    },
+    "require": {
+        "wordpress/wordpress": "^6.2"
+    }
+}
