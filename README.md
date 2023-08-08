@@ -18,5 +18,5 @@ Run `composer install`
 ---
 
 ### For more information you can read articles:
-[Install WordPress via Composer - EN](https://wp-yoda.com/wordpress/install-wordpress-via-composer/)  
+[Install WordPress via Composer - EN](https://wp-yoda.com/en/wordpress/installing-wordpress-via-composer/)  
 [Install WordPress via Composer - RU](https://wp-yoda.com/wordpress/ustanovka-wordpress-cherez-composer-2/)
