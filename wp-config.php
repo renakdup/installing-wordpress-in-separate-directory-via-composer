@@ -92,8 +92,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
 
-define( 'WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] ); // Site URL for the front-of-site
-define( 'WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp' ); // URL address with WP core (which is for the admin)
+define( 'WP_HOME', 'https://' . $_SERVER['HTTP_HOST'] ); // Site URL for the front-of-site
+define( 'WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST'] . '/wp' ); // URL address with WP core (which is for the admin)
 
 define( 'WP_CONTENT_DIR', __DIR__ . '/wp-content' );
 define( 'WP_CONTENT_URL', WP_HOME . '/wp-content' );
